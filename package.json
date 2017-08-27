@@ -16,8 +16,7 @@
     "url": "https://github.com/mpneuried/rsmq-worker.git"
   },
   "scripts": {
-    "test": "COFFEECOV_INIT_ALL=false mocha --timeout 5000 --compilers coffee:coffee-script/register --require coffee-coverage/register-istanbul _src/test/main.coffee -R spec",
-    "test-cov": "npm run test; istanbul report text-summary lcov"
+    "test": "grunt test"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -27,7 +26,7 @@
     "async": "2.1.x",
     "lodash": "4.x",
     "mpbasic": "0.0.x",
-    "rsmq": "0.7.x"
+    "rsmq": "https://github.com/iunullc/rsmq"
   },
   "devDependencies": {
     "grunt": "1.x",
@@ -35,13 +34,8 @@
     "grunt-contrib-coffee": "1.x",
     "grunt-contrib-watch": "1.x",
     "grunt-include-replace": "5.x",
-    "grunt-mocha-cli": "3.x",
+    "grunt-mocha-cli": "2.x",
     "randoms": "0.x",
-    "should": "11.x",
-    "coffee-coverage": "1.x",
-    "coffee-script": "1.12.x",
-    "mocha": "3.2.x",
-    "coveralls": "2.11.x",
-    "istanbul": "0.4.x"
+    "should": "11.x"
   }
 }

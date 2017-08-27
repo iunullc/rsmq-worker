@@ -1,12 +1,9 @@
 ![RSMQ-Worker](https://trello-attachments.s3.amazonaws.com/5481963992d9ba3848568a1b/600x194/61b3b6117eeb0881c919c6996adb2620/rsmq_worker_small.png)
 
 [![Build Status](https://secure.travis-ci.org/mpneuried/rsmq-worker.png?branch=master)](http://travis-ci.org/mpneuried/rsmq-worker)
-[![Windows Tests](https://img.shields.io/appveyor/ci/mpneuried/rsmq-worker.svg?label=WindowsTest)](https://ci.appveyor.com/project/mpneuried/rsmq-worker)
-[![Coveralls Coverage](https://img.shields.io/coveralls/mpneuried/rsmq-worker.svg)](https://coveralls.io/github/mpneuried/rsmq-worker)
-
-[![Deps Status](https://david-dm.org/mpneuried/rsmq-worker.png)](https://david-dm.org/mpneuried/rsmq-worker)
-[![npm version](https://badge.fury.io/js/rsmq-worker.png)](http://badge.fury.io/js/rsmq-worker)
-[![npm downloads](https://img.shields.io/npm/dt/rsmq-worker.svg?maxAge=2592000)](https://nodei.co/npm/rsmq-worker/)
+[![Windows Tests](https://img.shields.io/appveyor/ci/mpneuried/rsmq-worker.svg?label=Windows%20Test)](https://ci.appveyor.com/project/mpneuried/rsmq-worker)
+[![Dependencies Status](https://david-dm.org/mpneuried/rsmq-worker.png)](https://david-dm.org/mpneuried/rsmq-worker)
+[![NPM version](https://badge.fury.io/js/rsmq-worker.png)](http://badge.fury.io/js/rsmq-worker)
 
 [![Join the chat at https://gitter.im/mpneuried/rsmq-worker](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/mpneuried/rsmq-worker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -167,7 +164,7 @@ Get the current queue size.
 **Arguments**
 
 * `hidden` : *( `Boolean` optional; default = `false` )*: The count of messages including the currently hidden/"in flight" messages.
-* `cb` : *( `Function` optional )*: Callback with `( err, size )`. The `size` is a `Number` and represents the number of messages in the queue. If `hidden=true` you will receive the number of currently hidden messages.
+* `cb` : *( `Function` optional )*: Callback with `( err, size )`. The `size` is a `Number` and repersents the number of messages in the queue. If `hidden=true` you will receive the numebr of currently hidden messages
 
 **Return**
 
